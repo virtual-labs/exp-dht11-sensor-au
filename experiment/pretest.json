@@ -2,37 +2,39 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is humidity sensor?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Hygrometer",
+        "b": "Gyroscope",
+        "c": "Sesimoscope",
+        "d": "Sundial"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is DHT11 Sensor?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "DHT11 is a high-cost digital sensor for sensing temperature and humidity.",
+        "b": "DHT11 is a low-cost digital sensor for sensing temperature and humidity.",
+        "c": "DHT11 is a low-cost Analog sensor for sensing temperature and humidity."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What are other alternative sensors in reference to DHT11?",
+      "answers": {
+        "a": "DHT23, AM2032, SHT71",
+        "b": "DHT02, AM2302, SHT17",
+        "c": "DHT22, AM2536, SHT71",
+        "d": "DHT22, AM2302, SHT71"
+
       },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
