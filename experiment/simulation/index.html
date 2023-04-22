@@ -5,9 +5,11 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./style.css" rel="stylesheet" />
+  
 
   <title>Vite App</title>
+  <script type="module" crossorigin src="/assets/index-c937cf94.js"></script>
+  <link rel="stylesheet" href="/assets/index-d40c48e3.css">
 </head>
 
 <body class="drawer drawer-end container-fluid h-full bg-base-100">
@@ -33,6 +35,7 @@
           </p>
         </div>
 
+       
         <div id="theory">
           <h2 class="text-xl font-bold mt-8">Instructions</h2>
           <ul class="list-disc ml-8 mt-4" >
@@ -50,6 +53,7 @@
           </div>
 
          </div>
+
       </div>
 
       <!------------------------ Information area ENDS --------------->
@@ -61,14 +65,25 @@
           <div id="components" class="components">
 
             <div id="rasberryPi" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/pi3dirk.svg" class="w-20 h-20">
+              <img src="/assets/pi3dirk-a5819943.svg" class="w-20 h-20">
               <span class="card-title">RasberryPi</span>
             </div>
 
-            <div id="sensor" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/sensor.svg" class="w-20 h-20">
-              <span class="card-title">DHT11 Sensor</span>
+            <div id="relayContainer" class="component bg-slate-200 rounded-lg text-center">
+              <img src="/assets/relay-d47d57eb.svg" class="w-20 h-20">
+              <span class="card-title">Relay</span>
             </div>
+
+            <div id="motor" class="component bg-slate-200 rounded-lg text-center">
+              <img src="/assets/motor-95166aec.svg" class="w-20 h-20">
+              <span class="card-title">DC Motor</span>
+            </div>
+
+            <div id="battery" class="component bg-slate-200 rounded-lg text-center">
+              <img src="/assets/battery-4c884753.svg" class="w-20 h-20">
+              <span class="card-title">9v battery</span>
+            </div>
+           
 
           </div>
 
@@ -76,10 +91,6 @@
 
           <div id="svg" class="h-auto overflow-hidden m-4">
             <span class="text-white bg-slate-600 font-serif font-light text-xl border border-solid border-black float-right text-center w-52 h-12 rounded-lg" id="displayInfo">CONNECTOR INFO</span>
-            <span class="fixed bottom-0 w-full m-4">
-              <input id="temperature" type="range" min="0" max="100" value="40" style="width:60%" className="range range-warning" />
-              <span class="block">Temperature Controller 0-100 *C</span>
-            </span>
           </div>
         </div>
       </div>
@@ -97,23 +108,37 @@
     </label>
     
     <pre contenteditable="false" spellcheck="false">
-      <span>import sys</span>
-      <span>import Adafruit_DHT</span>
-      <span>import time</span>
+      <span>import time.</span>
+
+      <span>channel = 21</span>
       
-      <span>while True:</span>
+      <span>GPIO.setmode(GPIO.BCM)</span>
+      <span>GPIO.setup(channel, GPIO.OUT, initial=GPIO.HIGH)</span>
       
-      <span>humidity, temperature = Adafruit_DHT.read_retry(11, 4)</span>
+      <span>def motor_on(pin):</span>
+      <span style="margin-left: 1em">GPIO.output(pin, GPIO.LOW)</span><span> # Turn motor on</span>
       
-      <span>print 'Temp: {0:0.1f} C  Humidity: {1:0.1f} %'.format(temperature, humidity)</span>
-      <span>time.sleep(1)</span>
+      <span>def motor_off(pin):</span>
+      <span style="margin-left: 1em">GPIO.output(pin, GPIO.HIGH)</span><span> # Turn motor off</span>
       
+      <span>if name == 'main':</span>
+      <span style="margin-left: 1em">try:</span>
+      <span style="margin-left: 2em">motor_on(channel)</span>
+      <span style="margin-left: 2em">print("ON")</span>
+      <span style="margin-left: 2em">time.sleep(5)</span>
+      <span style="margin-left: 2em">motor_off(channel)</span>
+      <span style="margin-left: 2em">print("OFF")</span>
+      <span style="margin-left: 2em">GPIO.cleanup()</span>
+      <span style="margin-left: 1em">except KeyboardInterrupt:</span>
+      <span style="margin-left: 2em">GPIO.cleanup()</span>
       <button id="codeSubmit" class="btn btn-primary">Submit</button>
     </pre>
   </div>
 
 
-
+  <!-- <div class="absolute right-1/2 transform translate-x-1/2 -translate-y-1/2 top-20 border border-black bg-red-500 text-white px-10 py-5 text-center">
+    hello
+  </div> -->
 
   <div class="fixed inset-0 items-center justify-center bg-gray-900 bg-opacity-75 hidden" id="errorBox">
     <div class="bg-red-500 p-8 rounded-lg shadow-lg">
@@ -127,8 +152,7 @@
 
 
 
-
 </body>
-<script type="module" src="/main.js"></script>
+
 
 </html>
