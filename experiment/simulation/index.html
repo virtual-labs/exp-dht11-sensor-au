@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="./vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
   <title>Vite App</title>
-  <script type="module" crossorigin src="./assets/index-29c55aa7.js"></script>
-  <link rel="stylesheet" href="./assets/index-614e6b25.css">
+  <script type="module" crossorigin src="./assets/index-40625f15.js"></script>
+  <link rel="stylesheet" href="./assets/index-6ed659d6.css">
 </head>
 
 <body class="drawer drawer-end container-fluid h-full bg-base-100">
@@ -62,9 +62,19 @@
               <span class="card-title">RasberryPi</span>
             </div>
 
-            <div id="sensor" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/sensor.svg" class="w-20 h-20">
-              <span class="card-title">DHT11 Sensor</span>
+            <div id="ledlight" class="component bg-slate-200 rounded-lg text-center">
+              <img src="./assets/led.svg" class="w-20 h-20">
+              <span class="card-title">Led bulb</span>
+            </div>
+
+            <div id="resistor" class="component bg-slate-200 rounded-lg text-center">
+              <img src="./assets/resistor.svg" class="w-20 h-20">
+              <span class="card-title">Resistor</span>
+            </div>
+
+            <div id="pushButton" class="component bg-slate-200 rounded-lg text-center">
+              <img src="./assets/pushButton.svg" class="w-20 h-20">
+              <span class="card-title">Push Button</span>
             </div>
 
           </div>
@@ -75,11 +85,7 @@
             <span
               class="text-white bg-slate-600 font-serif font-light text-xl border border-solid border-black float-right text-center w-52 h-12 rounded-lg"
               id="displayInfo">CONNECTOR INFO</span>
-            <span class="fixed bottom-0 w-full m-4">
-              <input id="temperature" type="range" min="0" max="100" value="40" style="width:60%"
-                className="range range-warning" />
-              <span class="block">Temperature Controller 0-100 *C</span>
-            </span>
+
           </div>
         </div>
       </div>
@@ -97,21 +103,43 @@
     </label>
 
     <pre contenteditable="false" spellcheck="false">
-      <span>import sys</span>
-      <span>import Adafruit_DHT</span>
+      <span>import RPi.GPIO as GPIO</span>
       <span>import time</span>
+      <span>button =  <input name="buttonPin" id="buttonPin" placeholder="Enter the button Pin" style="width:20vw" > </span></span>
+      <br>
+      <span>led =  <input name="ledPin" id="ledPin" placeholder="Enter the led pin" style="width:20vw"></span></span>
       
-      <span>while True:</span>
+      <span>def setup():</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO.setmode(GPIO.BOARD)</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP)</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO.setup(led, GPIO.OUT)</span>
       
-      <span>humidity, temperature = Adafruit_DHT.read_retry(11, 4)</span>
+      <span>def loop():</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while True:</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;button_state = GPIO.input(button)</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if button_state == False:</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO.output(led, True)</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Button Pressed...')</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while GPIO.input(button) == False:</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time.sleep(0.2)</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO.output(led, False)</span>
       
-      <span>print 'Temp: {0:0.1f} C  Humidity: {1:0.1f} %'.format(temperature, humidity)</span>
-      <span>time.sleep(1)</span>
+      <span>def endprogram():</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO.output(led, False)</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GPIO.cleanup()</span>
       
+      <span>if __name__ == '__main__':</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setup()</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;loop()</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except KeyboardInterrupt:</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('keyboard interrupt detected')</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endprogram()</span>
+    
       <button id="codeSubmit" class="btn btn-primary">Submit</button>
     </pre>
   </div>
-
 
 
 
@@ -125,6 +153,7 @@
       </button>
     </div>
   </div>
+
 
 
 
