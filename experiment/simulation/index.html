@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
 
-  <title>Vite App</title>
+  <title>Raspberry Pi DHT11 Sensor Interface</title>
   <script type="module" crossorigin src="./assets/index-77c8d51c.js"></script>
   <link rel="stylesheet" href="./assets/index-e7549335.css">
 </head>
@@ -29,20 +29,26 @@
     <div class="flex flex-col sm:flex-row" >
       <div class="w-1/3 m-5 hidden-scroll sm:block bg-base-200 p-6">
         <div id="headline">
-          
-        </div>
-
-        <div id="theory">
-          <h2 class="text-xl font-bold mt-8">Procedure</h2>
-          <div class="mt-4">
-            <img src="./assets/exp4_connection_diagram-29754a3b.png" alt="connetion_diagram">
-          </div>
+          <h2 class="text-xl font-bold mt-8">General Instructions</h2>
           <ol class="pl-5 mt-2 space-y-1 list-decimal list-inside text-xl" >
             <li>Click on the components to start interacting it with in the connection area</li>
             <li>Hover over the rasberrypi connections to get informations about various connections pin </li>
             <li>Double click on various connections points to make connections  </li>
             <li>Double click on the empty space in the connection area to extend and bend wire connections  </li>
           </ol>
+        </div>
+        
+        <div id="theory">
+          <h2 class="text-xl font-bold mt-8">How to Connect</h2>
+          <div class="mt-4">
+            <img src="./assets/exp4_connection_diagram-29754a3b.png" alt="connetion_diagram">
+          </div>
+          <ul>
+            <li><b>1. Connect VCC pin of DHT11 sensor to +5 of raspberry Pi </b> </li>
+            <li><b>2. Connect GND PIN of DHT11 sensor to GND of Raspberry Pi </b></li>
+            <li><b>3. Connect the Data Out of the Sensor to the GPIO4 that is Physical Pin 7 of the Raspberry Pi </b>
+            </li>
+          </ul>          
 
           <div>
             <h2 class="text-xl font-bold mt-8">Connections Logs</h2>
