@@ -7,48 +7,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
 
-  <title>Raspberry Pi DHT11 Sensor Interface</title>
-  <script type="module" crossorigin src="./assets/index-77c8d51c.js"></script>
-  <link rel="stylesheet" href="./assets/index-e7549335.css">
+  <title>Vite App</title>
+  <script type="module" crossorigin src="./js/index-94c34bfa.js"></script>
+  <link rel="stylesheet" href="./css/index-d4554686.css">
 </head>
 
-<body class="drawer drawer-end container-fluid h-full bg-base-100" style="overflow-y: scroll;">
+<body class="drawer drawer-end container-fluid h-full bg-base-100">
   <!-- <div class="drawer drawer-end"> -->
   <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content">
 
     <!-- ------------- NAV BAR  AREA--------------------- -->
-    <div class="text-center bg-secondary p-4 rounded-b-xl">
-      <button class="button float-left btn btn-warning btn-md w-40" onClick="window.location.href=window.location.href" >RESET</button>
-      <span class="text-black font-serif font-light text-4xl">Raspberry Pi DHT11 Sensor Interface</span>
-      <label for="my-drawer-4" class="drawer-button btn btn-primary btn-md float-right w-40">&#x2630; CODE</label>
-    </div>
-    <!-- --------------NAVBAR AREA  ENDS -------------------->
-
-    <!-- Information Area -->
     <div class="flex flex-col sm:flex-row" >
       <div class="w-1/3 m-5 hidden-scroll sm:block bg-base-200 p-6">
         <div id="headline">
           <h2 class="text-xl font-bold mt-8">General Instructions</h2>
           <ol class="pl-5 mt-2 space-y-1 list-decimal list-inside text-xl" >
             <li>Click on the components to start interacting it with in the connection area</li>
-            <li>Hover over the rasberrypi connections to get informations about various connections pin </li>
+            <li>Hover over the raspberry Pi connections to get informations about various connections pin </li>
             <li>Double click on various connections points to make connections  </li>
             <li>Double click on the empty space in the connection area to extend and bend wire connections  </li>
           </ol>
         </div>
-        
+
         <div id="theory">
           <h2 class="text-xl font-bold mt-8">How to Connect</h2>
           <div class="mt-4">
-            <img src="./assets/exp4_connection_diagram-29754a3b.png" alt="connetion_diagram">
+            <img src="./images/diagram.png" alt="connetion_diagram">
           </div>
-          <ul>
-            <li><b>1. Connect VCC pin of DHT11 sensor to +5 of raspberry Pi </b> </li>
-            <li><b>2. Connect GND PIN of DHT11 sensor to GND of Raspberry Pi </b></li>
-            <li><b>3. Connect the Data Out of the Sensor to the GPIO4 that is Physical Pin 7 of the Raspberry Pi </b>
+         
+          <ol class="pl-5 mt-2 space-y-1 list-decimal list-inside text-xl" >
+            <li>Connect VCC pin of DHT11 sensor to +5 of Raspberry Pi  </li>
+            <li>Connect GND PIN of DHT11 sensor to GND of Raspberry Pi </li>
+            <li>Connect the Data Out of the Sensor to the GPIO4, that is Physical Pin 7 of the Raspberry Pi
             </li>
-          </ul>          
+          </ol>
 
           <div>
             <h2 class="text-xl font-bold mt-8">Connections Logs</h2>
@@ -67,14 +60,32 @@
         <div class="h-full">
 
           <div id="components" class="components">
+            <label
+            for="my-drawer-4"
+            class="drawer-button btn btn-primary btn-md float-right w-40 m-4"
+            >&#x2630; CODE</label
+          >
+            <button
+              class="button float-right btn btn-warning btn-md w-40 m-4"
+              onClick="window.location.href=window.location.href"
+            >
+              RESET
+            </button>
+            <button
+            id="undoButton"
+            class=" float-right btn  btn-md w-40 m-4"
+           style="background-color: #3498db; border: none;"
+          >
+            UNDO
+          </button>
 
             <div id="rasberryPi" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/pi3dirk.svg" class="w-20 h-20">
-              <span class="card-title">RasberryPi</span>
+              <img src="images/pi3dirk.svg" class="w-20 h-20">
+              <span class="card-title">Raspberry Pi</span>
             </div>
 
             <div id="sensor" class="component bg-slate-200 rounded-lg text-center">
-              <img src="./assets/sensor.svg" class="w-20 h-20">
+              <img src="./images/sensor.svg" class="w-20 h-20">
               <span class="card-title">DHT11 Sensor</span>
             </div>
 
