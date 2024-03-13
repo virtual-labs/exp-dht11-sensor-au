@@ -1,0 +1,28 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What library did we import here for DHT sensor?",
+      "answers": {
+        "a": "Sys",
+        "b": "Adafruit_DHT",
+        "c": "Time"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To what pin of Raspberry pi did sensor is connected?",
+      "answers": {
+        "a": "Pin7",
+        "b": "Pin19",
+        "c": "Pin12",
+        "d": "Pin3"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

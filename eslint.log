@@ -1,0 +1,43 @@
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/images/index-94c34bfa.js
+    52:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    88:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    92:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   122:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   267:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   284:8   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   415:14  warning  'n' is assigned a value but never used                                     no-unused-vars
+  1037:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1059:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1061:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1063:14  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1065:16  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1067:18  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1069:20  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1071:24  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1388:63  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1740:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2697:45  warning  'connectedPointSequence' is not defined                                    no-undef
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/js/index-94c34bfa.js
+    52:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    88:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    92:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   122:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   267:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   284:8   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   415:14  warning  'n' is assigned a value but never used                                     no-unused-vars
+  1037:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1059:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1061:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1063:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1065:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1067:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1069:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1071:12  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1389:63  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1741:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2700:45  warning  'connectedPointSequence' is not defined                                    no-undef
+
+✖ 36 problems (0 errors, 36 warnings)
+
