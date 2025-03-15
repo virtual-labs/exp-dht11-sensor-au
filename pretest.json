@@ -1,0 +1,37 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is humidity sensor?",
+      "answers": {
+        "a": "Hygrometer",
+        "b": "Gyroscope",
+        "c": "Seismoscope",
+        "d": "Sundial"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is DHT11 Sensor?",
+      "answers": {
+        "a": "DHT11 is a high-cost digital sensor for sensing temperature and humidity.",
+        "b": "DHT11 is a low-cost digital sensor for sensing temperature and humidity.",
+        "c": "DHT11 is a low-cost analog sensor for sensing temperature and humidity."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What are the three terminals of the DHT11 sensor?",
+      "answers": {
+        "a": "VCC, DATA, GND",
+        "b": "VCC, CLK, GND",
+        "c": "DATA, OUT, PWR",
+        "d": "GND, SIG, 5V"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
