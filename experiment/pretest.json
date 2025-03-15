@@ -6,10 +6,9 @@
       "answers": {
         "a": "Hygrometer",
         "b": "Gyroscope",
-        "c": "Sesimoscope",
+        "c": "Seismoscope",
         "d": "Sundial"
       },
-      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -18,23 +17,20 @@
       "answers": {
         "a": "DHT11 is a high-cost digital sensor for sensing temperature and humidity.",
         "b": "DHT11 is a low-cost digital sensor for sensing temperature and humidity.",
-        "c": "DHT11 is a low-cost Analog sensor for sensing temperature and humidity."
+        "c": "DHT11 is a low-cost analog sensor for sensing temperature and humidity."
       },
-      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "What are other alternative sensors in reference to DHT11?",
+      "question": "What are the three terminals of the DHT11 sensor?",
       "answers": {
-        "a": "DHT23, AM2032, SHT71",
-        "b": "DHT02, AM2302, SHT17",
-        "c": "DHT22, AM2536, SHT71",
-        "d": "DHT22, AM2302, SHT71"
-
+        "a": "VCC, DATA, GND",
+        "b": "VCC, CLK, GND",
+        "c": "DATA, OUT, PWR",
+        "d": "GND, SIG, 5V"
       },
-      
-      "correctAnswer": "d",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
