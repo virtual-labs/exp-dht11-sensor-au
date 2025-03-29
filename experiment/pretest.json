@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is humidity sensor?",
+      "question": "What is a humidity sensor?",
       "answers": {
         "a": "Hygrometer",
         "b": "Gyroscope",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is DHT11 Sensor?",
+      "question": "What is the DHT11 sensor?",
       "answers": {
         "a": "DHT11 is a high-cost digital sensor for sensing temperature and humidity.",
         "b": "DHT11 is a low-cost digital sensor for sensing temperature and humidity.",
@@ -31,6 +31,39 @@
         "d": "GND, SIG, 5V"
       },
       "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of thermistor is used in the DHT11 temperature sensor?",
+      "answers": {
+        "a": "Positive Temperature Coefficient (PTC)",
+        "b": "Negative Temperature Coefficient (NTC)",
+        "c": "Linear Temperature Coefficient (LTC)",
+        "d": "Variable Temperature Coefficient (VTC)"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How many general-purpose GPIO pins are programmable on the Raspberry Pi 3 Model B?",
+      "answers": {
+        "a": "40",
+        "b": "26",
+        "c": "17",
+        "d": "28"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why should the Raspberry Pi be powered off during hardware connections?",
+      "answers": {
+        "a": "To save power",
+        "b": "To prevent damage from electrostatic discharge (ESD) or incorrect pin connections",
+        "c": "To update the operating system",
+        "d": "To increase the GPIO pin current capacity"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
