@@ -1,2 +1,2 @@
-### Aim of the Experiment
-To interface DHT11 sensor with Raspberry Pi and write a program to print temperature and humidity readings.
+### Aim of The Experiment 
+To interface a DHT11 sensor with a Raspberry Pi and write a Python program to print temperature and humidity readings, this experiment demonstrates sensor integration using the Raspberry Pi’s GPIO pins to collect data from the DHT11, a digital temperature and humidity sensor, with applications in weather monitoring, smart agriculture, and home automation.
