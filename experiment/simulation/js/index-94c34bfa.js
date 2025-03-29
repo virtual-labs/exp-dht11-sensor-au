@@ -27,6 +27,7 @@
     const o = e(i);
     fetch(i.href, o);
   }
+  
 })();
 var Tn = { value: () => {} };
 function nn() {
