@@ -2,27 +2,70 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What library did we import here for DHT sensor?",
+      "question": "Which library is used to interface the DHT11 sensor with Raspberry Pi?",
       "answers": {
         "a": "Sys",
         "b": "Adafruit_DHT",
-        "c": "Time"
+        "c": "Time",
+        "d": "GPIO"
       },
-      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "To what pin of Raspberry pi did sensor is connected?",
+      "question": "Which GPIO pin of the Raspberry Pi is commonly used to connect the DHT11 sensor?",
       "answers": {
-        "a": "Pin7",
-        "b": "Pin19",
-        "c": "Pin12",
-        "d": "Pin3"
+        "a": "Pin 7",
+        "b": "Pin 19",
+        "c": "Pin 12",
+        "d": "Pin 3"
       },
-      
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What type of data does the DHT11 sensor measure?",
+      "answers": {
+        "a": "Temperature and Humidity",
+        "b": "Air Pressure",
+        "c": "Light Intensity",
+        "d": "Wind Speed"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which Python function is used to read data from the DHT11 sensor?",
+      "answers": {
+        "a": "read_dht()",
+        "b": "get_temperature()",
+        "c": "read_retry()",
+        "d": "fetch_sensor_data()"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the typical operating voltage range of the DHT11 sensor?",
+      "answers": {
+        "a": "1.8V - 3.3V",
+        "b": "3.3V - 5V",
+        "c": "5V - 12V",
+        "d": "12V - 24V"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is NOT a real-world application of the DHT11 sensor?",
+      "answers": {
+        "a": "Weather Monitoring",
+        "b": "Soil Moisture Measurement",
+        "c": "Home Automation",
+        "d": "Greenhouse Climate Control"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
