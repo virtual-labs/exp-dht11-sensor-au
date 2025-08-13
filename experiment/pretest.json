@@ -2,69 +2,59 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is a humidity sensor?",
+      "question": "What physical quantities does the DHT11 sensor measure?",
       "answers": {
-        "a": "Hygrometer",
-        "b": "Gyroscope",
-        "c": "Seismoscope",
-        "d": "Sundial"
+        "a": "Temperature and humidity",
+        "b": "Temperature and pressure",
+        "c": "Pressure and humidity",
+        "d": "Light intensity and humidity"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "What is the DHT11 sensor?",
+      "question": "What is the typical voltage operating range for the DHT11 sensor?",
       "answers": {
-        "a": "DHT11 is a high-cost digital sensor for sensing temperature and humidity.",
-        "b": "DHT11 is a low-cost digital sensor for sensing temperature and humidity.",
-        "c": "DHT11 is a low-cost analog sensor for sensing temperature and humidity."
+        "a": "1.8V – 3.3V",
+        "b": "3.3V – 5.5V",
+        "c": "5V – 12V",
+        "d": "1V – 2V"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "What are the three terminals of the DHT11 sensor?",
+      "question": "Which terminal of the DHT11 is connected to a pull-up resistor?",
       "answers": {
-        "a": "VCC, DATA, GND",
-        "b": "VCC, CLK, GND",
-        "c": "DATA, OUT, PWR",
-        "d": "GND, SIG, 5V"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "What type of thermistor is used in the DHT11 temperature sensor?",
-      "answers": {
-        "a": "Positive Temperature Coefficient (PTC)",
-        "b": "Negative Temperature Coefficient (NTC)",
-        "c": "Linear Temperature Coefficient (LTC)",
-        "d": "Variable Temperature Coefficient (VTC)"
+        "a": "VCC",
+        "b": "DATA",
+        "c": "GND",
+        "d": "All terminals"
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
-      "question": "How many general-purpose GPIO pins are programmable on the Raspberry Pi 3 Model B?",
+      "question": "What is the minimum sampling period for the DHT11 sensor?",
       "answers": {
-        "a": "40",
-        "b": "26",
-        "c": "17",
-        "d": "28"
+        "a": "0.5 seconds",
+        "b": "1 second",
+        "c": "2 seconds",
+        "d": "5 seconds"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "intermediate"
     },
     {
-      "question": "Why should the Raspberry Pi be powered off during hardware connections?",
+      "question": "On the Raspberry Pi, which library is commonly used in Python to read DHT11 sensor data?",
       "answers": {
-        "a": "To save power",
-        "b": "To prevent damage from electrostatic discharge (ESD) or incorrect pin connections",
-        "c": "To update the operating system",
-        "d": "To increase the GPIO pin current capacity"
+        "a": "RPi.GPIO",
+        "b": "Adafruit_DHT",
+        "c": "gpiozero",
+        "d": "smbus"
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     }
   ]
 }

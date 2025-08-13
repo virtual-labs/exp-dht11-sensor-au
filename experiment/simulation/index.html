@@ -1,34 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>Vite App</title>
-  <style>
-    /* New CSS only for messages, no background colors */
-    #tempChangeMessage {
-      transition: opacity 0.5s ease-in-out;
-      opacity: 1;
-      font-weight: 600;
-      text-align: center;
-      margin-bottom: 10px;
-      padding: 5px;
-      border-radius: 4px;
-    }
-    .warning {
-      color: #dc2626; /* Red for warning */
-    }
-    .normal {
-      color: #38cf9d; /* Green for normal */
-    }
-  </style>
-  <script type="module" crossorigin src="js/index-6e344e47.js"></script>
-  <link rel="stylesheet" href="css/index-bcab8314.css">
+  <script type="module" crossorigin src="js/index-d06d4c16.js"></script>
+  <link rel="stylesheet" href="css/index-6fb8d369.css">
 </head>
-
 <body class="drawer drawer-end container-fluid h-full bg-base-100">
   <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content">
@@ -43,11 +23,10 @@
             <li>Double-click on the empty space in the connection area to extend and bend wire connections</li>
           </ol>
         </div>
-
         <div id="theory">
           <h2 class="text-xl font-bold mt-8">How to Connect</h2>
           <div class="mt-4">
-            <img src="images/diagram.png" alt="connection_diagram">
+            <img src="images/exp4_connection_diagram-29754a3b-29754a3b.png" alt="connection_diagram">
           </div>
           <ol class="pl-5 mt-2 space-y-1 list-decimal list-inside text-xl">
             <li>Connect VCC pin of DHT11 sensor to 5V pin of Raspberry Pi</li>
@@ -56,36 +35,29 @@
             <li>After completing the circuit, click the "Code" button, observe the code, and submit it.</li>
             <li>Adjust the temperature with the slider and observe the resulting change.</li>
           </ol>
-
           <div>
             <h2 class="text-xl font-bold mt-8">Connections Logs</h2>
             <ul class="list-disc ml-8 mt-4" id="connectionLog"></ul>
           </div>
         </div>
       </div>
-
       <div class="sm:w-2/3 h-screen">
         <div class="h-full">
           <div id="components" class="components">
             <label for="my-drawer-4" class="drawer-button btn btn-primary btn-md float-right w-40 m-4">☰ CODE</label>
             <button class="button float-right btn btn-warning btn-md w-40 m-4" onClick="window.location.href=window.location.href">RESET</button>
             <button id="undoButton" class="float-right btn btn-md w-40 m-4" style="background-color: #3498db; border: none;">UNDO</button>
-
             <div id="rasberryPi" class="component bg-slate-200 rounded-lg text-center">
               <img src="images/pi3dirk.svg" class="w-20 h-20">
               <span class="card-title">Raspberry Pi</span>
             </div>
-
             <div id="sensor" class="component bg-slate-200 rounded-lg text-center">
               <img src="images/sensor.svg" class="w-20 h-20">
               <span class="card-title">DHT11 Sensor</span>
             </div>
           </div>
-
           <div id="componentDescription" class="text-sm text-gray-700 mt-2 p-2 bg-gray-100 rounded-lg" style="display: none; width: 100%; max-width: 600px; margin-left: 1rem;"></div>
-
           <hr>
-
           <div id="svg" class="h-auto overflow-hidden m-4" style="margin-top: 4rem;">
             <span class="text-white bg-slate-600 font-serif font-light text-xl border border-solid border-black float-right text-center w-52 h-12 rounded-lg" id="displayInfo">CONNECTOR INFO</span>
             <span class="fixed bottom-0 w-full m-4">
@@ -98,25 +70,19 @@
       </div>
     </div>
   </div>
-
   <div class="drawer-side">
     <label for="my-drawer-4" class="drawer-overlay"></label>
     <pre contenteditable="false" spellcheck="false">
       <span>import sys</span>
       <span>import Adafruit_DHT</span>
       <span>import time</span>
-      
       <span>while True:</span>
-      
       <span>humidity, temperature = Adafruit_DHT.read_retry(11, 4)</span>
-      
       <span>print 'Temp: {0:0.1f} C  Humidity: {1:0.1f} %'.format(temperature, humidity)</span>
       <span>time.sleep(1)</span>
-      
       <button id="codeSubmit" class="btn btn-primary">Submit</button>
     </pre>
   </div>
-
   <div class="fixed inset-0 items-center justify-center bg-gray-900 bg-opacity-75 hidden" id="errorBox">
     <div class="bg-red-500 p-8 rounded-lg shadow-lg">
       <h2 class="text-white text-2xl mb-4" id="errorHeading">Error!</h2>
@@ -125,6 +91,5 @@
     </div>
   </div>
 </body>
-
 
 </html>
