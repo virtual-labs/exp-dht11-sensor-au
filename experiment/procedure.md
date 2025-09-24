@@ -1,5 +1,4 @@
-### Procedure
- 
+
 #### Hardware Setup
 1. Connect the VCC pin of the DHT11 sensor to the 5V pin of the Raspberry Pi.
 2. Connect the GND pin of the DHT11 sensor to the GND pin of the Raspberry Pi.
