@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In the experiment, why is a 10kΩ pull-up resistor connected between VCC and the DATA pin of the DHT11?",
+      "answers": {
+        "a": "To filter noise from the sensor output",
+        "b": "To ensure proper high-level signal during idle state",
+        "c": "To limit the current to the DATA pin",
+        "d": "To increase humidity measurement accuracy"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "If the DHT11 returns 'None' for temperature or humidity in Python, what is the most likely cause?",
+      "answers": {
+        "a": "Sensor is damaged permanently",
+        "b": "Sampling period is too short",
+        "c": "Raspberry Pi is overheated",
+        "d": "Operating voltage is too high"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "According to the experiment, how often can you accurately read values from the DHT11 sensor?",
+      "answers": {
+        "a": "Every 0.5 seconds",
+        "b": "Every 1 second",
+        "c": "Every 2 seconds",
+        "d": "Every 5 seconds"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the wiring for this experiment, where is the GND pin of the DHT11 connected on the Raspberry Pi?",
+      "answers": {
+        "a": "Any available ground pin",
+        "b": "Directly to the negative side of the power supply",
+        "c": "GPIO17",
+        "d": "USB port shield"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the experiment code, which function from the Adafruit_DHT library is used to read data?",
+      "answers": {
+        "a": "read_data()",
+        "b": "read_retry()",
+        "c": "get_temp_humidity()",
+        "d": "read_sensor()"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
