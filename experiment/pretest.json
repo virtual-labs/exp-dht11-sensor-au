@@ -2,38 +2,59 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What physical quantities does the DHT11 sensor measure?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Temperature and humidity",
+        "b": "Temperature and pressure",
+        "c": "Pressure and humidity",
+        "d": "Light intensity and humidity"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the typical voltage operating range for the DHT11 sensor?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1.8V – 3.3V",
+        "b": "3.3V – 5.5V",
+        "c": "5V – 12V",
+        "d": "1V – 2V"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which terminal of the DHT11 is connected to a pull-up resistor?",
+      "answers": {
+        "a": "VCC",
+        "b": "DATA",
+        "c": "GND",
+        "d": "All terminals"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the minimum sampling period for the DHT11 sensor?",
+      "answers": {
+        "a": "0.5 seconds",
+        "b": "1 second",
+        "c": "2 seconds",
+        "d": "5 seconds"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "On the Raspberry Pi, which library is commonly used in Python to read DHT11 sensor data?",
+      "answers": {
+        "a": "RPi.GPIO",
+        "b": "Adafruit_DHT",
+        "c": "gpiozero",
+        "d": "smbus"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
