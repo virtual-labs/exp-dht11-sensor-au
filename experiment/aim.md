@@ -1,9 +1,5 @@
-### Aim of the Experiment
 
 The objective of this experiment is to interface a **DHT11 sensor** with a **Raspberry Pi** and develop a **Python program** to read and display real-time **temperature and humidity** data. This experiment highlights the process of **sensor integration** with the Raspberry Pi using its **GPIO (General-Purpose Input/Output) pins**, demonstrating how embedded systems can interact with the physical environment.  
-
-
-
 
 The integration of the **DHT11 sensor** with a **Raspberry Pi** has numerous real-world applications, including:  
 
