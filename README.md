@@ -4,7 +4,7 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Internet of Things (IoT) 
-<b> Experiment|     <b> To interface DHT11 sensor with Raspberry Pi
+<b> Experiment|     <b> DHT11 sensor with Raspberry Pi Program
 ### About the Experiment 
 
 Fill a brief description of this experiment here
