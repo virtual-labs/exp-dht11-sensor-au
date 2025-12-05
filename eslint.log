@@ -1,0 +1,146 @@
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/images/index-94c34bfa.js
+    52:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    88:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    92:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   122:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   267:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   284:8   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   415:14  warning  'n' is assigned a value but never used                                     no-unused-vars
+  1037:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1059:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1061:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1063:14  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1065:16  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1067:18  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1069:20  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1071:24  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1388:63  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1740:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2697:45  warning  'connectedPointSequence' is not defined                                    no-undef
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/js/index-1cfe7b98.js
+  1:1185   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:1547   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1854   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:2003   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:2685   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:5331   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:5631   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:6191   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:7776   warning  'n' is assigned a value but never used                                     no-unused-vars
+  1:18312  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18572  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18611  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18674  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18713  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18776  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18820  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18869  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:23440  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1:28996  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:33186  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:35529  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/js/index-418722a7.js
+  1:1185   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:1547   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1854   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:2003   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:2685   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:5331   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:5631   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:6191   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:7776   warning  'n' is assigned a value but never used                                     no-unused-vars
+  1:18312  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18572  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18611  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18674  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18713  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18776  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18820  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:18869  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:23440  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1:28996  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:33186  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:35529  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/js/index-6e344e47.js
+    54:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    90:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    94:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   124:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   269:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   286:8   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   417:14  warning  'n' is assigned a value but never used                                     no-unused-vars
+  1039:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1061:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1063:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1065:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1067:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1069:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1071:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1073:12  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1391:63  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1743:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/js/index-94c34bfa.js
+    52:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    88:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    92:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   122:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   267:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   284:8   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   415:14  warning  'n' is assigned a value but never used                                     no-unused-vars
+  1037:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1059:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1061:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1063:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1065:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1067:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1069:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1071:12  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1389:63  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1741:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2715:45  warning  'connectedPointSequence' is not defined                                    no-undef
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/js/index-b42651da.js
+    52:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    88:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    92:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   122:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   267:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   284:8   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   415:14  warning  'n' is assigned a value but never used                                     no-unused-vars
+  1037:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1059:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1061:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1063:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1065:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1067:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1069:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1071:12  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1389:63  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1741:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+
+/home/runner/work/exp-dht11-sensor-au/exp-dht11-sensor-au/experiment/simulation/js/index-d06d4c16.js
+    54:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    90:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    94:17  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   124:8   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   269:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   286:8   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+   417:14  warning  'n' is assigned a value but never used                                     no-unused-vars
+  1039:6   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1066:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1068:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1070:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1072:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1074:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1076:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1078:12  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1396:63  warning  'WebKitCSSMatrix' is not defined                                           no-undef
+  1748:10  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+
+✖ 129 problems (0 errors, 129 warnings)
+
