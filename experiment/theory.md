@@ -1,4 +1,3 @@
-### Theory
 
 The **DHT11** is a compact digital sensor that integrates two essential environmental monitoring elements—temperature and humidity sensors—within a single package. It is widely used for basic environmental data collection in IoT applications, such as weather stations and climate control systems.
 
@@ -7,11 +6,11 @@ To build an **IoT Weather Station** using the **DHT11** and **Raspberry Pi**, th
 
 ##### **1. Raspberry Pi 3 Model B**
 A single-board computer equipped with an ARM processor, multiple interfaces, and **GPIO pins** to interact with external components. It serves as the processing unit for collecting, analyzing, and transmitting data from the **DHT11 sensor**.  
-<img src="./images/rasberrypi.png" alt="Raspberry Pi" width="40%">
+<img src="./images/rasberrypi.png" alt="Raspberry Pi" width="30%">
 
 ##### **2. DHT11 Temperature and Humidity Sensor**
 A digital sensor that provides **temperature and humidity** readings. It sends data to the Raspberry Pi using a **single-wire serial communication protocol**.  
-<img src="./images/DHT11.jpg" alt="DHT11 Sensor" width="40%">
+<img src="./images/DHT11.jpg" alt="DHT11 Sensor" width="20%">
 
 #### **Circuit Connections**
 To ensure the proper functioning of the DHT11 sensor with the Raspberry Pi, make the following connections:
